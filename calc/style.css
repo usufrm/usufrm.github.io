@@ -1,0 +1,43 @@
+body{
+    padding: 20px;
+}
+.plus_and_minus{
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    min-height: 200px;
+    background-color: green;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+input{
+    margin-top: 3px;
+    font-weight: bold;
+}
+button{
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.result{
+    width: 200px;
+    min-height: 20px;
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+hr{
+    border: 1px solid black;
+    width: 200px;
+}
+h2{
+    text-align: center;
+}
