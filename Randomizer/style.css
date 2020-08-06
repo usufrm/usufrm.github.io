@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+
+.block{
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    min-height: 200px;
+    background-color: rgb(40, 151, 155);
+    padding: 5px;
+}
+#test{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+button{
+    margin-top: 15px;
+}
+input{
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width: 480px){
+    .block{
+        width: 100%;
+        border-radius:none;
+
+    }
+    button{
+        margin-top: 15px;
+        width: 40%;
+        height:35px;
+        background-color: rgb(206, 137, 163);
+    }
+    #test{
+        width: 80%;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+    }
+}
